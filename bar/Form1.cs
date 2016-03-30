@@ -39,7 +39,8 @@ namespace bar
             dataGridView1.ReadOnly = true;
             dataGridView2.AllowUserToAddRows = false;
             dataGridView2.AllowUserToDeleteRows = false;
-            dataGridView2.ReadOnly = true;
+            dataGridView2.Columns[0].ReadOnly = true;
+            dataGridView2.Columns[1].ReadOnly = true;
             this.dataGridView1.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseDoubleClick);
             foreach (container i in DB.data_BD.containers)
             {
@@ -93,7 +94,7 @@ namespace bar
                     container_quantity D = new container_quantity();
                     container PR = DB.data_BD.containers.Find(index[i]);
                     D.composition = PR;
-                    price += (decimal)PR.price;
+                    price += (decimal)PR.price * int.Parse(dataGridView2.Rows[j].Cells[2].Value.ToString());
                     D.container_quantityid = int.Parse(dataGridView2.Rows[j].Cells[2].Value.ToString());
                     j++;
                 }
