@@ -1,0 +1,23 @@
+c:\users\het\documents\visual studio 2013\Projects\bar\bar\bin\Debug\bar.exe.config
+c:\users\het\documents\visual studio 2013\Projects\bar\bar\obj\Debug\bar.Properties.Resources.resources
+c:\users\het\documents\visual studio 2013\Projects\bar\bar\obj\Debug\bar.csproj.GenerateResource.Cache
+c:\users\het\documents\visual studio 2013\Projects\bar\bar\bin\Debug\bar.exe
+c:\users\het\documents\visual studio 2013\Projects\bar\bar\bin\Debug\bar.pdb
+c:\users\het\documents\visual studio 2013\Projects\bar\bar\bin\Debug\EntityFramework.dll
+c:\users\het\documents\visual studio 2013\Projects\bar\bar\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\het\documents\visual studio 2013\Projects\bar\bar\bin\Debug\EntityFramework.xml
+c:\users\het\documents\visual studio 2013\Projects\bar\bar\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\het\documents\visual studio 2013\Projects\bar\bar\obj\Debug\bar.exe
+c:\users\het\documents\visual studio 2013\Projects\bar\bar\obj\Debug\bar.pdb
+C:\Users\het\documents\visual studio 2013\Projects\bar\bar\obj\Debug\bar.Form1.resources
+C:\Users\het\documents\visual studio 2013\Projects\bar\bar\obj\Debug\bar.cocktail.resources
+C:\Users\het\documents\visual studio 2013\Projects\bar\bar\obj\Debug\bar.product_f.resources
+C:\Users\het\documents\visual studio 2013\Projects\bar\bar\obj\Debug\bar.similar_P.resources
+C:\Users\het\documents\visual studio 2013\Projects\bar\bar\obj\Debug\bar.admin.resources
+C:\Users\het\documents\visual studio 2013\Projects\bar\bar\obj\Debug\bar.authorization.resources
+C:\Users\het\documents\visual studio 2013\Projects\bar\bar\obj\Debug\bar.User_work.resources
+C:\Users\het\documents\visual studio 2013\Projects\bar\bar\obj\Debug\bar.sim.resources
+C:\Users\het\documents\visual studio 2013\Projects\bar\bar\obj\Debug\bar.Migrations.bar_BD.resources
+C:\Users\het\Google Диск\Prog\C#\bar\bar\bin\Debug\bar.exe.config
+C:\Users\het\Google Диск\Prog\C#\bar\bar\obj\Debug\bar.exe
+C:\Users\het\Google Диск\Prog\C#\bar\bar\obj\Debug\bar.pdb
