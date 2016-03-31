@@ -28,20 +28,22 @@ namespace bar
         }
         public void dataGridView1_CellMouseDoubleClick(object sender, EventArgs e)
         {
-
+            product_similar.Clear();
             try
             {
                 try
                 {
+                  
                     foreach (product i in DB.data_BD.products.Find(DB_and_dataGridView_product.index[dataGridView1.CurrentRow.Index]).similar)
-                                product_similar[dataGridView1.CurrentRow.Index].Add(i);
+                        product_similar[dataGridView1.CurrentRow.Index].Add(i);
                 }
                 catch (NullReferenceException)
                 { }
-                similar_P add = new similar_P(product_similar[dataGridView1.CurrentRow.Index]);
-                add.ShowDialog();
-               if (add.retrieve() != null && dataGridView1.CurrentRow != null)
-                product_similar[dataGridView1.CurrentRow.Index] = add.retrieve();
+                    similar_P add = new similar_P(product_similar[dataGridView1.CurrentRow.Index]);
+                    add.ShowDialog();
+                    if (add.retrieve() != null && dataGridView1.CurrentRow != null)
+                        product_similar[dataGridView1.CurrentRow.Index] = add.retrieve();
+                
             }
             catch (KeyNotFoundException)
             {

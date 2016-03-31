@@ -72,9 +72,9 @@
     <Compile Include="cocktail_B.cs" />
     <Compile Include="data_BD.cs" />
     <Compile Include="DB_and_dataGridView.cs" />
-    <Compile Include="Migrations\201603290932232_bar_BD.cs" />
-    <Compile Include="Migrations\201603290932232_bar_BD.Designer.cs">
-      <DependentUpon>201603290932232_bar_BD.cs</DependentUpon>
+    <Compile Include="Migrations\201603310853129_bar_BD.cs" />
+    <Compile Include="Migrations\201603310853129_bar_BD.Designer.cs">
+      <DependentUpon>201603310853129_bar_BD.cs</DependentUpon>
     </Compile>
     <Compile Include="product_f.cs">
       <SubType>Form</SubType>
@@ -119,8 +119,8 @@
     <EmbeddedResource Include="cocktail.resx">
       <DependentUpon>cocktail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201603290932232_bar_BD.resx">
-      <DependentUpon>201603290932232_bar_BD.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201603310853129_bar_BD.resx">
+      <DependentUpon>201603310853129_bar_BD.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="product_f.resx">
       <DependentUpon>product_f.cs</DependentUpon>

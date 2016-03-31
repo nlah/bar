@@ -38,11 +38,14 @@
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.Логин = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.оклад = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Пароль = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.Логин = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.оклад = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Квалификация = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Пароль = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -110,10 +113,11 @@
             this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Логин,
             this.оклад,
+            this.Квалификация,
             this.Пароль});
             this.dataGridView2.Location = new System.Drawing.Point(186, 12);
             this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(340, 224);
+            this.dataGridView2.Size = new System.Drawing.Size(444, 224);
             this.dataGridView2.TabIndex = 7;
             // 
             // button2
@@ -136,21 +140,6 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // Логин
-            // 
-            this.Логин.HeaderText = "Логин";
-            this.Логин.Name = "Логин";
-            // 
-            // оклад
-            // 
-            this.оклад.HeaderText = "Оклад";
-            this.оклад.Name = "оклад";
-            // 
-            // Пароль
-            // 
-            this.Пароль.HeaderText = "Роль";
-            this.Пароль.Name = "Пароль";
-            // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(66, 98);
@@ -167,11 +156,49 @@
             this.label4.TabIndex = 11;
             this.label4.Text = "Оклад";
             // 
+            // Логин
+            // 
+            this.Логин.HeaderText = "Логин";
+            this.Логин.Name = "Логин";
+            // 
+            // оклад
+            // 
+            this.оклад.HeaderText = "Оклад";
+            this.оклад.Name = "оклад";
+            // 
+            // Квалификация
+            // 
+            this.Квалификация.HeaderText = "Квалификация";
+            this.Квалификация.Name = "Квалификация";
+            // 
+            // Пароль
+            // 
+            this.Пароль.HeaderText = "Роль";
+            this.Пароль.Name = "Пароль";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(12, 129);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(82, 13);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Квалификация";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(123, 129);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(43, 20);
+            this.textBox5.TabIndex = 13;
+            // 
             // User_work
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(538, 252);
+            this.ClientSize = new System.Drawing.Size(674, 252);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.button3);
@@ -204,10 +231,13 @@
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Логин;
-        private System.Windows.Forms.DataGridViewTextBoxColumn оклад;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Пароль;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Логин;
+        private System.Windows.Forms.DataGridViewTextBoxColumn оклад;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Квалификация;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Пароль;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox5;
     }
 }

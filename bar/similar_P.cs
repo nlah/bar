@@ -26,7 +26,8 @@ namespace bar
             dataGridView1.ReadOnly = true;
             dataGridView2.AllowUserToAddRows = false;
             dataGridView2.ReadOnly = true;
-
+            dataGridView1.Rows.Clear();
+            dataGridView2.Rows.Clear();
             this.dataGridView1.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseDoubleClick);
             foreach (product i in data)
             {
@@ -42,6 +43,7 @@ namespace bar
         private void button1_Click(object sender, EventArgs e)
         {
            // int i =0;
+            data.Clear();
             foreach (DataGridViewRow row in dataGridView2.Rows)
             {
 

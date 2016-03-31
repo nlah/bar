@@ -31,7 +31,6 @@ C:\Users\het\Google Диск\Prog\C#\bar\bar\obj\Debug\bar.csprojResolveAssembly
 C:\Users\het\Google Диск\Prog\C#\bar\bar\obj\Debug\bar.admin.resources
 C:\Users\het\Google Диск\Prog\C#\bar\bar\obj\Debug\bar.authorization.resources
 C:\Users\het\Google Диск\Prog\C#\bar\bar\obj\Debug\bar.cocktail.resources
-C:\Users\het\Google Диск\Prog\C#\bar\bar\obj\Debug\bar.Migrations.bar_BD.resources
 C:\Users\het\Google Диск\Prog\C#\bar\bar\obj\Debug\bar.product_f.resources
 C:\Users\het\Google Диск\Prog\C#\bar\bar\obj\Debug\bar.Form1.resources
 C:\Users\het\Google Диск\Prog\C#\bar\bar\obj\Debug\bar.Properties.Resources.resources
@@ -39,3 +38,4 @@ C:\Users\het\Google Диск\Prog\C#\bar\bar\obj\Debug\bar.sim.resources
 C:\Users\het\Google Диск\Prog\C#\bar\bar\obj\Debug\bar.similar_P.resources
 C:\Users\het\Google Диск\Prog\C#\bar\bar\obj\Debug\bar.User_work.resources
 C:\Users\het\Google Диск\Prog\C#\bar\bar\obj\Debug\bar.csproj.GenerateResource.Cache
+C:\Users\het\Google Диск\Prog\C#\bar\bar\obj\Debug\bar.Migrations.bar_BD.resources

@@ -53,6 +53,8 @@ namespace bar
         public int container_quantityid { get; set; }
          [Required]
         public float quantity { get; set; }
+
+
          [Required]
         public virtual container composition { get; set; } 
     }
@@ -83,6 +85,7 @@ namespace bar
           public int role { get; set; }
            [Required]
           public decimal salary { get; set; }
+          public int qualification { get; set; }
     }
     public class bar_BD : DbContext
     {
@@ -93,8 +96,6 @@ namespace bar
         public DbSet<container> containers { get; set; }
         public DbSet<order> orders { get; set; }
         public DbSet<User> Users { get; set; }
-
-
     }
 
 

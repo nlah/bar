@@ -20,25 +20,26 @@ namespace bar
             dataGridView2.ReadOnly = true;
             foreach (User i in DB.data_BD.Users)
             {
-                    dataGridView2.Rows.Add(i.login, i.salary,i.role);
+                    dataGridView2.Rows.Add(i.login, i.salary,i.qualification,i.role);
             }
         }
         private void button1_Click(object sender, EventArgs e)
         {
             try{
-            if (textBox2.Text == textBox3.Text)
-            {
-                User pers = new User(); pers.login = textBox1.Text; pers.role = 1;
-                pers.password = textBox2.Text; pers.salary = decimal.Parse(textBox4.Text);
-                DB.data_BD.Users.Add(pers);
-                DB.save();
-                dataGridView2.Rows.Clear();
-                foreach (User i in DB.data_BD.Users)
+                if (textBox2.Text == textBox3.Text)
                 {
+                    User pers = new User(); pers.login = textBox1.Text; pers.role = 1; pers.qualification = int.Parse(textBox5.Text);
+                    pers.password = textBox2.Text; pers.salary = decimal.Parse(textBox4.Text);
+                    DB.data_BD.Users.Add(pers);
+                    DB.save();
+                    dataGridView2.Rows.Clear();
+                    foreach (User i in DB.data_BD.Users)
+                    {
 
-                    dataGridView2.Rows.Add(i.login, i.salary,i.role);
+                        dataGridView2.Rows.Add(i.login, i.salary, i.qualification,i.role);
+                    }
                 }
-            }
+                else { MessageBox.Show("Ошибка ввода"); }
                }
             catch (System.FormatException)
             {
@@ -55,7 +56,7 @@ namespace bar
             dataGridView2.Rows.Clear();
             foreach (User i in DB.data_BD.Users)
             {
-                dataGridView2.Rows.Add(i.login, i.salary,i.role);
+                dataGridView2.Rows.Add(i.login, i.salary, i.qualification, i.role);
             }
         }
 
